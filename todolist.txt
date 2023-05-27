@@ -1,0 +1,10 @@
+create virtual env, install django
+-Base pages / templates
+Authentication
+Simple Dashboard
+Create New Leads
+Change and delete Leads
+Convert Leads to clients
+Implement soln for templates
+implement a payment soln / monthly recurring payments
+Deploy 

@@ -1,0 +1,16 @@
+{%extends 'core/base.html'%}
+
+{%block title%}LogIn{%endblock%}
+
+{% block content %}
+    <h1 class="text-xl">Log In</h1>
+
+    <form method="post" action=".">
+        {% csrf_token %}
+
+        {{form.as_p}}
+
+        <button class="py-4 px-6 rounded-xl bg-teal-500 text-white" type="submit">Sign up</button>
+    </form>
+
+{%endblock%}
